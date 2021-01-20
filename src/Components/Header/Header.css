@@ -1,20 +1,48 @@
 .Header{
-  background-color: #fbfbfb;
-  /* height: 100px; */
-  /* margin-top: 30px; */
+  margin-top: 18px;
+}
+
+.Login{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.Login h6:hover{
+  cursor: pointer !important;
+}
+
+.Login h6{
+  font-weight: 700;
+  color: #0f436d;
+  /* margin-bottom: 0; */
+}
+
+.container-fluid{
+  width: 80%;
+  padding: 0;
 }
 .Header__logo {
-  height: 20vmin;
-  /* min-height: 20px; */
+  max-width: 180px;
   pointer-events: none;
 }
 
 .navbar{
-  height: 120px;
+  height: 100px;
   background-color: #0f436d;
+  padding: 0 !important;
+}
 
+.navbar-brand{
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .nav-link{
   color: #fbfbfb !important;
+  font-size: 20px;
+}
+
+.nav-item{
+  padding: 0 0 0 16px !important;
 }

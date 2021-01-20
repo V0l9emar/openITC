@@ -3,12 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./Components/Header/Header"
 import Main from "./Components/Main/Main"
+import Footer from "./Components/Footer/Footer"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter className="App">
       <Header />
       <Main />
+      <Footer />
     </BrowserRouter>
   );
 }

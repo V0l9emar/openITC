@@ -1,18 +1,16 @@
 import React from "react";
 import logo from "../../logo.svg";
 import "./Header.css";
-import M from "materialize-css";
 
 function Header() {
-  // document.addEventListener('DOMContentLoaded', function() {
-  //   var elems = document.querySelectorAll('.sidenav');
-  //   var instances = M.Sidenav.init(elems, options);
-  // });
   return (
     <div className="Header">
+      <div className="Login">
+        <h6>Login /</h6>
+        <h6> Sign In</h6>
+      </div>
       <nav className="navbar navbar-expand-md  navbar-light">
         <div className="container-fluid">
-
           <a className="navbar-brand" href="#">
             <img src={logo} className="Header__logo" alt="logo" />
           </a>
@@ -27,7 +25,7 @@ function Header() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
