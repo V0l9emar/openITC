@@ -1,0 +1,20 @@
+.Header{
+  background-color: #fbfbfb;
+  /* height: 100px; */
+  /* margin-top: 30px; */
+}
+.Header__logo {
+  height: 20vmin;
+  /* min-height: 20px; */
+  pointer-events: none;
+}
+
+.navbar{
+  height: 120px;
+  background-color: #0f436d;
+
+}
+
+.nav-link{
+  color: #fbfbfb !important;
+}
