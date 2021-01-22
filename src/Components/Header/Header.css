@@ -1,6 +1,25 @@
 .Header{
   margin-top: 18px;
 }
+.Navbar{
+  background-color: #0f436d;
+}
+
+#basic-navbar-nav{
+  justify-content: flex-end !important;
+}
+
+.navbar{
+  width: 80%;
+  margin: auto;
+  border-left: none !important;
+}
+
+/* .navbar-nav{
+  display: flex;
+  justify-content: flex-end !important;
+  border: none !important;
+} */
 
 .Login{
   margin: auto;
@@ -15,13 +34,8 @@
 .Login h6{
   font-weight: 700;
   color: #0f436d;
-  /* margin-bottom: 0; */
 }
 
-.container-fluid{
-  width: 80%;
-  padding: 0;
-}
 .Header__logo {
   position: absolute;
   top: -40px;
@@ -31,7 +45,7 @@
 }
 
 .navbar{
-  height: 100px;
+  height: 100px !important;
   background-color: #0f436d;
   padding: 0 !important;
 }
@@ -44,8 +58,13 @@
 .nav-link{
   color: #fbfbfb !important;
   font-size: 20px;
+  text-align: right;
 }
 
 .nav-item{
   padding: 0 0 0 16px !important;
+}
+
+.navbar-toggler{
+  color: #fbfbfb;
 }

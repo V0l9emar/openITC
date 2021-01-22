@@ -1,6 +1,14 @@
 import React from "react";
 import logo from "../../logo.svg";
 import "./Header.css";
+import {
+  Navbar,
+  Nav,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
+} from "react-bootstrap";
 
 function Header() {
   return (
@@ -9,53 +17,44 @@ function Header() {
         <h6>Login /</h6>
         <h6> Sign In</h6>
       </div>
-      <nav className="navbar navbar-expand-md  navbar-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+      <div className="Navbar">
+        <Navbar bg="#0f436d" expand="md">
+          <Navbar.Brand href="#home">
             <img src={logo} className="Header__logo" alt="logo" />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link disabled"
-                  href="#"
-                  tabIndex="-1"
-                  aria-disabled="true"
-                >
-                  Disabled
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="justify-content-end">
+              <Nav.Item>
+                <Nav.Link href="#home">Home</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#courses">Courses</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#about">About</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link href="#contact">Contact</Nav.Link>
+              </Nav.Item>
+
+              {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4">
+                  Separated link
+                </NavDropdown.Item>
+              </NavDropdown> */}
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </div>
     </div>
   );
 }
