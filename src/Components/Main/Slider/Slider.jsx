@@ -7,7 +7,11 @@ function Slider() {
   return (
     <div className="Slider">
       <Carousel autoplay>
-        <div className="Slider__slide1"></div>
+        <div className="Slider__slide1">
+          <div className="Slider__container">
+            <h2 data-animation="fadeInLeft" data-delay="0.2s">Education it most powerful Weapon</h2>
+          </div>
+        </div>
         <div className="Slider__slide2"></div>
       </Carousel>
       ,
