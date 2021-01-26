@@ -1,0 +1,19 @@
+.Environment{
+    width: 80%;
+    margin: auto;
+}
+.Environment__courses{
+    background: #0f436d url("../../../img/features-bg.jpg") no-repeat center;
+    width: 30%;
+}
+
+.Environment__courses-mask{
+    background-color: #0f436d;
+    width: 100%;
+    opacity: .9;
+    padding: 48px 35px;
+    
+}
+.Environment__courses-mask h4{
+    color:  #fbfbfb;
+}
