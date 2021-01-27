@@ -1,6 +1,6 @@
 .Courses{
     display: flex;
-    margin: auto;
+    margin: 20px auto;
     width: 80%;
     justify-content: space-between;
 }
