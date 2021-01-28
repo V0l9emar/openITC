@@ -8,3 +8,8 @@
 .Courses__card{
     width: 32%;
 }
+
+.card-img-top{
+    /* background-color: red; */
+    padding: 20px;
+}
