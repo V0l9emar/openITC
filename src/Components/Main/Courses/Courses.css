@@ -1,15 +1,21 @@
 .Courses{
     display: flex;
-    margin: 20px auto;
+    margin: 100px auto;
     width: 80%;
     justify-content: space-between;
 }
 
 .Courses__card{
-    width: 32%;
+    width: 30%;
+    background-color: #fbfbfb;
+    box-shadow: 0;
+    transition: box-shadow 1s;
 }
 
-.card-img-top{
-    /* background-color: red; */
-    padding: 20px;
+.Courses__card:hover{
+    box-shadow: 0 0 10px #0f436d;
+}
+
+.Courses__card-icon{
+    margin: 10px auto;
 }

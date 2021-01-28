@@ -1,7 +1,7 @@
 .Environment {
   max-width: 80%;
   /* max-width: 1440px; */
-  margin: auto;
+  margin: 50px auto;
   display: flex;
   /* justify-content: center; */
 }

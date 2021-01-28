@@ -2,6 +2,8 @@ import React from "react";
 import "antd/dist/antd.css";
 import "./Courses.css";
 import { Card, Button } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGraduationCap, faChalkboard, faBookOpen, faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 import Knowledge from "../../../img/knowledge.svg"
 
 function Courses() {
@@ -50,7 +52,8 @@ function Courses() {
         </Card.Body>
       </Card> */}
       <Card className="Courses__card">
-        <Card.Img variant="top" src={Knowledge} />
+        {/* <Card.Img variant="top" src={Knowledge} /> */}
+        <FontAwesomeIcon className="Courses__card-icon" icon={faBookOpen} size="10x" color="#ef4323" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
@@ -61,7 +64,8 @@ function Courses() {
         </Card.Body>
       </Card>
       <Card className="Courses__card">
-        <Card.Img variant="top" src={Knowledge} />
+        {/* <Card.Img variant="top" src={Knowledge} /> */}
+        <FontAwesomeIcon className="Courses__card-icon" icon={faChalkboard} size="10x" color="#ef4323" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
@@ -72,7 +76,8 @@ function Courses() {
         </Card.Body>
       </Card>
       <Card className="Courses__card">
-        <Card.Img variant="top" src={Knowledge} />
+        {/* <Card.Img variant="top" src={Knowledge} /> */}
+        <FontAwesomeIcon className="Courses__card-icon" icon={faUserGraduate} size="10x" color="#ef4323" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>
