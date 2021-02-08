@@ -13,11 +13,11 @@ import Knowledge from "../../../img/knowledge.svg";
 
 function Courses() {
   return (
-    <div>
-      <div className="row">
+    <div className="Courses">
+      <div className="Courses__block">
         <div className="col-lg-8">
-          <div className="section-title mt-40">
-            <h2 className="title">
+          <div className="Courses__text">
+            <h2>
               Here is our <br /> Top Courses
             </h2>
             <p>
@@ -27,7 +27,7 @@ function Courses() {
           </div>
         </div>
       </div>
-      <div className="Courses">
+      <div className="Courses__block">
         <Card className="Courses__card">
           <FontAwesomeIcon
             className="Courses__card-icon"

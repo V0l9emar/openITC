@@ -1,7 +1,11 @@
 .Courses{
-    display: flex;
     margin: 100px auto;
     width: 80%;
+}
+
+.Courses__block{
+    display: flex;
+    margin-bottom: 20px;
     justify-content: space-between;
 }
 
@@ -11,6 +15,20 @@
     box-shadow: 0;
     transition: box-shadow 1s;
 }
+
+.Courses__text{
+    display: flex;
+}
+
+.Courses__text h2 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #0f436d;
+    line-height: 48px;
+    padding-right: 20px;
+    margin-bottom: 0;
+    border-right: 5px solid #0f436d;
+  }
 
 .Courses__card:hover{
     box-shadow: 0 0 10px #0f436d;
